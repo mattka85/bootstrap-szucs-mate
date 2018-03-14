@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    overflow: auto;
+    background: linear-gradient(to right,  #DA2431,#7D4397); 
+}
+header::after{
+    background: url("/img/bg-pattern.png") repeat; 
+}
+
+.h-text  {
+    position: relative;
+    display: float;
+    float: center;
+    width: 50vh;
+}
+.h-image{  
+position: relative;
+display: float;
+float: center;
+width: 50vh;
+}
+.navbtn{
+    background: none;
+    border: none;
+    color: #FCC949;
+    border-radius: 0;
+}
+.navbtn:hover, .navbtn:focus, .navbtn:active, .navbtn.active,  {
+    color: #fff;
+}
+
+.buzz{
+    background: #FCC949; 
+}
+.img-fluid {max-width: 30%;
+height: 200px;}
+.centerx{
+    text-align: center;
+}
+@media (max-width: 992px){
+.h-text,
+.h-image{
+    width: 100vh;
+}
+.navig{
+    background: white;
+}}
+
